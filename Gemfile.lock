@@ -66,6 +66,8 @@ GEM
     erubi (1.10.0)
     ffi (1.14.2)
     ffi (1.14.2-x64-mingw32)
+    friendly_id (5.4.2)
+      activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.9)
@@ -186,6 +188,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  friendly_id (~> 5.4.0)
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
@@ -200,7 +203,7 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 2.6.6p146
 
 BUNDLED WITH
-   2.2.3
+   2.2.11
