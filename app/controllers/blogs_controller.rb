@@ -10,6 +10,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1 or /blogs/1.json
   def show
     @page_title = @blog.title
+    @seo_content = @blog.title
   end
 
   # GET /blogs/new
